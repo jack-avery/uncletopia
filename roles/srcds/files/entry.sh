@@ -18,6 +18,7 @@ cp -rv "/home/steam/config/${STEAMAPP}" "${STEAMAPPDIR}"
 # Believe it or not, if you don't do this srcds_run shits itself
 cd "${STEAMAPPDIR}"
 
+
 ln -s "${STEAMAPPDIR}/${STEAMAPP}/stv_demos" /demos
 ln -s "${STEAMAPPDIR}/${STEAMAPP}/logs" /logs
 
